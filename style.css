@@ -1,0 +1,30 @@
+table{
+    border-collapse:collapse ;
+}
+td,th{
+    border: solid black;
+    padding: 0 10px;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: hidden scroll;
+}
+.box2{
+    border: 2px solid peru ;
+    width: 400px;
+    height: 200px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border: solid purple;
+}
+.outer{
+    background-color: aqua;
+}
+.inner{
+    background-color:palegreen ;
+    transform: rotate(30deg) scale(.5);
+}
