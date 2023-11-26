@@ -58,3 +58,73 @@ td,th{
     transform: translate(1000px, -200px);
 
 }
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box5{
+    width : 300px;
+    height: 200px;
+    font-size: 40px ;
+    border: 3px solid mediumaquamarine;
+    border-radius: 5%;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+.box6{
+    border: 3px solid greenyellow;
+   
+}
+.calender ul {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 1em;
+}
+.calender li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 4em;
+    height: 125px;
+    background-color: lightslategray;
+}
+.other-month{
+    background-color: lightgreen !important;
+}
+.container2{
+    display: flex;
+    max-width: 1200px;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+.food{
+    border: 3px solid lightgray;
+    border-radius: 30px;
+    margin: 10px;
+    width: 350px;
+}
+.food img{
+    width: 100%;
+}
+/*@media (max-width: 760px) {
+    .container2{
+        flex-direction: column;
+    }
+    .container2 .food {
+        background-color: aqua;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .container2 .food{
+        background-color: rgb(226, 217, 43);
+    }
+
+}*/
